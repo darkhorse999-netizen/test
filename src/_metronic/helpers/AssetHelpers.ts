@@ -1,7 +1,7 @@
 import { useLayout } from "../layout/core";
 import { ThemeModeComponent } from "../assets/ts/layout";
 
-export const toAbsoluteUrl = (pathname: string) => "/public" + pathname;
+export const toAbsoluteUrl = (pathname: string) => pathname;
 
 export const useIllustrationsPath = (illustrationName: string): string => {
   const { config } = useLayout();
